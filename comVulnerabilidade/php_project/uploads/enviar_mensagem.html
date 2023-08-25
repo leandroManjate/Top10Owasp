@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="styles2.css">
+<script src="jquery-3.3.1.min.js"></script>
+<title>Apoio ao cliente</title>
+</head>
+
+
+<!-- Esta div corresponde ao conteudo ao lado direito do menu -->
+<div id='conteudo'>
+    <h1> Envie um pedido ao serviço de apoio ao cliente </h1>
+    
+    <form action="processar_pedido.php" method="post" enctype="multipart/form-data">
+
+      <p>Nome: <input type="text" id="nome" name="nome"> 
+    
+      <p>Email: <input type="text" id="email" name="email">
+      
+      <p> Escreva a sua mensagem </p>
+   
+      <textarea name='mensagem' id='mensagem' class="alinhar-esquerda"> </textarea>
+
+      <p><div class='center_content'><input id="submit_button" type="submit" value="Enviar mensagem" name="submit"></div>
+
+    </form>
+
+
+</div>
+
+
+</body>
+</html>
